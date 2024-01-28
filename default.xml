@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-    <project name="https://github.com/chasbuilds/android_device_xiaomi_rosemary.git" path="device/xiaomi/rosemary" revision="13.0" remote="github" />
-    <project name="https://github.com/chasbuilds/android_kernel_xiaomi_mt6785.git" path="kernel/xiaomi/mt6785" revision="lineage-20.0" remote="github" />
-    <project name="https://github.com/chasbuilds/android_vendor_xiaomi_rosemary.git" path="vendor/xiaomi/rosemary" revision="lineage-20.0" remote="github" />
-    <project name="https://github.com/chasbuilds/android_device_mediatek_sepolicy_vndr.git" path="device/mediatek/sepolicy_vndr" revision="lineage-20" remote="github" />
+    <project name="https://github.com/Sicantik-Hanya-Gabut/DT" path="device/xiaomi/rosemary" revision="rad" remote="github" />
 </manifest>
