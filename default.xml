@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-    <project name="https://github.com/Sicantik-Hanya-Gabut/DT" path="device/xiaomi/rosemary" revision="rad" remote="github" />
+    <project name="https://github.com/Sicantik-Hanya-Gabut/DT.git" path="device/xiaomi/rosemary" revision="rad" remote="github" />
 </manifest>
