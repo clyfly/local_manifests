@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
     <project name="RedmiNote10S/android_device_redmi_rosemary" path="device/redmi/rosemary" revision="lineage-18.1" remote="github" />
-    <project name="RedmiNote10S/android_kernel_redmi_rosemary" path="kernel/redmi/rosemary" revision="lineage-18.1" remote="github" />
+    <project name="cly-build/rad-kernel-rosemary-R" path="kernel/redmi/rosemary" revision="rad" remote="github" />
     <project name="RedmiNote10S/proprietary_vendor_redmi_rosemary" path="vendor/redmi/rosemary" revision="lineage-18.1" remote="github" />
     <project name="RedmiNote10S/android_device_mediatek_sepolicy" path="device/mediatek/sepolicy" revision="lineage-18.1" remote="github" />
     <project name="PixelExperience/vendor_mediatek-opensource" path="vendor/mediatek/opensource" revision="eleven" remote="github" />
