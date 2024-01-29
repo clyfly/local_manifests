@@ -1,9 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
-    <project name="RedmiNote10S/android_device_redmi_rosemary" path="device/redmi/rosemary" revision="lineage-18.1" remote="github" />
-    <project name="cly-build/rad-kernel-rosemary-R" path="kernel/redmi/rosemary" revision="rad" remote="github" />
-    <project name="RedmiNote10S/proprietary_vendor_redmi_rosemary" path="vendor/redmi/rosemary" revision="lineage-18.1" remote="github" />
-    <project name="RedmiNote10S/android_device_mediatek_sepolicy" path="device/mediatek/sepolicy" revision="lineage-18.1" remote="github" />
-    <project name="PixelExperience/vendor_mediatek-opensource" path="vendor/mediatek/opensource" revision="eleven" remote="github" />
-    <project name="PixelExperience/vendor_mediatek_interfaces" path="vendor/mediatek/interfaces" revision="eleven" remote="github" />
+   <!-- Remote -->
+   <remote name="lab" fetch="https://gitlab.com"/>
+   <remote name="chas" fetch="https://github.com/chas-prjkt"/>
+   <remote name="hub" fetch="https://github.com/cly-build"/>
+
+   <!-- Trees -->
+   <project path="device/redmi/rosemary" name="android_device_redmi_rosemary" remote="chas" revision="11.0" clone-depth="1"/>
+   <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="hub" revision="lineage-18.1" clone-depth="1"/>
+   <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="chas" revision="eleven" clone-depth="1"/>
+   
+   <!-- Extras -->
+   <project path="vendor/mediatek/opensource" name="android_vendor_mediatek_opensource" remote="chas" revision="eleven" clone-depth="1"/>
+   <project path="vendor/mediatek/interfaces" name="android_vendor_mediatek_interfaces" remote="chas" revision="eleven" clone-depth="1"/>
+   
+   <!-- SePolicy -->
+   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="chas" revision="11.0" clone-depth="1"/>
+   
+   <!-- Clang -->
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
+   
 </manifest>
