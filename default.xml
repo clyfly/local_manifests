@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-    <project name="https://codeberg.org/heyradrepo/android_device_xiaomi_rosemary" path="device/xiaomi/rosemary" revision="14" />
+    <project name="https://codeberg.org/heyradrepo/android_device_xiaomi_rosemary" path="device/xiaomi/rosemary" revision="rising" />
     <project name="https://github.com/AndroDesk/proprietary_vendor_xiaomi_rosemary" path="vendor/xiaomi/rosemary" revision="lineage-21" />
     <project name="https://github.com/xiaomi-mediatek-devs/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
     <project name="https://github.com/xiaomi-mediatek-devs/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" />
